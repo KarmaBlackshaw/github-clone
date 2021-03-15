@@ -1,0 +1,19 @@
+.form-control__item {
+  display: flex;
+
+  .item-input {
+    display: block;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    border: 0;
+    box-shadow: none;
+    width: 100%;
+
+    &:focus {
+      outline: 0;
+    }
+  }
+}

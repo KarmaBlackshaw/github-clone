@@ -1,0 +1,42 @@
+* {
+  -moz-osx-font-smoothing: grayscale;
+  -moz-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  appearance: none;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overscroll-behavior-x: none;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  background-color: #06090f;
+  height: 100vh;
+  color: $font-primary;
+}
+
+.form-control {
+  padding: 5px 12px;
+  font-size: 14px;
+  line-height: 20px;
+  color: $font-primary;
+  vertical-align: middle;
+  background-color: #0d1117;
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  border: 1px solid #21262d;
+  border-radius: 6px;
+  outline: none;
+}
