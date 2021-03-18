@@ -18,20 +18,22 @@
 html,
 body {
   overscroll-behavior-x: none;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  background-color: #06090f;
 }
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   background-color: #06090f;
   height: 100vh;
-  color: $font-primary;
+  color: $font-secondary;
 }
 
 .form-control {
   padding: 5px 12px;
   font-size: 14px;
   line-height: 20px;
-  color: $font-primary;
+  color: $font-secondary;
   vertical-align: middle;
   background-color: #0d1117;
   background-repeat: no-repeat;

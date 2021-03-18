@@ -1,17 +1,20 @@
 <template>
   <div class="home-main">
     <Repositories />
-    hello world
+
+    <Wall />
   </div>
 </template>
 
 <script>
 
 import Repositories from '@/components/Repositories'
+import Wall from '@/components/Wall'
 
 export default {
   components: {
-    Repositories
+    Repositories,
+    Wall
   }
 }
 </script>

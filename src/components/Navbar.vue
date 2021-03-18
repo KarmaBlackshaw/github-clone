@@ -26,8 +26,9 @@
     </div>
 
     <div
-      v-if="showHamburgerContent"
+      id="navbar-body"
       class="navbar__body"
+      :style="navbarBodyStyle"
     >
       <div class="navbar__body-searchbar">
         <base-input placeholder="Search or jump to..." />
@@ -66,10 +67,19 @@
 </template>
 
 <script>
+
 export default {
   data () {
     return {
       showHamburgerContent: false
+    }
+  },
+
+  computed: {
+    navbarBodyStyle () {
+      return {
+        'max-height': this.showHamburgerContent ? '354px' : 0
+      }
     }
   }
 }

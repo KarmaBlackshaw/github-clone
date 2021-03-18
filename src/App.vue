@@ -25,6 +25,6 @@ export default {
 
 <style lang="scss">
 .app-main {
-  padding: 20px 10px
+  padding: 25px 15px
 }
 </style>
