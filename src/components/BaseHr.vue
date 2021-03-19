@@ -1,5 +1,9 @@
 <template functional>
-  <div class="main-hr"></div>
+  <div
+    class="main-hr"
+    :class="data.staticClass || ''"
+    v-bind="data.attrs"
+  ></div>
 </template>
 
 <style lang="scss" scoped>
