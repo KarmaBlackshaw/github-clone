@@ -1,6 +1,8 @@
 <template>
   <div class="home-main">
-    <Repositories />
+    <div class="home__repositories">
+      <Repositories />
+    </div>
 
     <Wall />
   </div>
@@ -20,5 +22,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.home__repositories {
+  margin-bottom: 20px;
+}
 </style>

@@ -16,7 +16,7 @@
             :key="key"
             class="list__item"
           >
-            <icon
+            <base-icon
               class="list__item-icon"
               icon="book"
             />
@@ -63,7 +63,7 @@ export default {
   .repositories__title {
     margin-bottom: 5px;
     font-size: 0.9em;
-    color: $font-primary;
+    color: $color-primary;
   }
 
   .repositories__search-input {
@@ -82,7 +82,7 @@ export default {
       max-width: 200px;
       overflow: hidden;
       white-space: nowrap;
-      color: $font-link;
+      color: $color-link;
 
       .list__item-icon {
         margin-right: 10px;
@@ -93,7 +93,7 @@ export default {
   .repositories-footer {
     .footer__btn-show-more {
       background: none;
-      color: $font-muted;
+      color: $color-muted;
       padding: 10px 5px;
       width: 100%;
       text-align: left;
@@ -105,7 +105,7 @@ export default {
       transition: color 0.2s linear;
 
       &:hover {
-        color: $font-link;
+        color: $color-link;
       }
     }
   }

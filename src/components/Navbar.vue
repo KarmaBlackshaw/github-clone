@@ -2,7 +2,7 @@
   <div class="navbar">
     <div class="navbar__head">
       <div class="navbar__items navbar__items-burger">
-        <icon
+        <base-icon
           icon="bars"
           size="lg"
           :style="{ color: showHamburgerContent ? '#388bfd' : 'white' }"
@@ -18,7 +18,7 @@
       </div>
 
       <div class="navbar__items navbar__items-notification">
-        <icon
+        <base-icon
           icon="bell"
           size="lg"
         />
@@ -86,5 +86,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '~styles/components/Navbar';
+@import "~styles/components/Navbar";
 </style>
