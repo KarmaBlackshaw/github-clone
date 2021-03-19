@@ -21,9 +21,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss" scoped>
-.activity__horizontal-rule {
-  margin: 20px;
-}
-</style>
