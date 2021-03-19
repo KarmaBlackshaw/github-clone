@@ -26,14 +26,14 @@ body {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   background-color: #06090f;
   height: 100vh;
-  color: $font-secondary;
+  color: $color-secondary;
 }
 
 .form-control {
   padding: 5px 12px;
   font-size: 14px;
   line-height: 20px;
-  color: $font-secondary;
+  color: $color-secondary;
   vertical-align: middle;
   background-color: #0d1117;
   background-repeat: no-repeat;
@@ -41,4 +41,14 @@ body {
   border: 1px solid #21262d;
   border-radius: 6px;
   outline: none;
+}
+
+.mx-5 {
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+
+.mx-4 {
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
