@@ -18,7 +18,7 @@ requireComponent.keys().forEach(fileName => {
   Vue.component(componentName, componentConfig.default || componentConfig)
 })
 
-Vue.component('Icon', fontawesome)
+Vue.component('BaseIcon', fontawesome)
 
 // configurations
 Vue.config.productionTip = false
